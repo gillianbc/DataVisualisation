@@ -1,3 +1,6 @@
+import matplotlib
+
+matplotlib.use
 import matplotlib.pyplot as plt
 
 input_values = [1, 2, 3, 4, 5]
@@ -26,7 +29,6 @@ ax.set_ylabel("Square of Value", fontsize=small_font)
 
 # Set the size of the tick labels
 ax.tick_params(axis='both', labelsize=small_font)
-
 
 # Show the plot
 plt.show()
